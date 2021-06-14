@@ -13,9 +13,10 @@ if answer == 'yes':
         print('You encountered a group of pursuers in front of you. What do you do?')
         print('1. Fight them')
         print('2. Try to run past them')
-        if answer == '1':
+        answer2 = input()
+        if answer2 == '1':
             print('As you try to fight them, the pursuers behind you managed to catch up to you. You were stabbed as you were fighting and died. Game Over')
-        elif answer == '2':
+        elif answer2 == '2':
             print('You tried to run past the group and succeeded.')
             print('You managed to outrun your pursuers and secured the treasures for yourself. THE END')   
 
